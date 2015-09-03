@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo Libreria</title>
+	<link rel="stylesheet" href="/css/fonts.css">
+	<link rel="stylesheet" href="/css/main.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header class="cabecera">
+		<div class="row row__space__between">
+			<span class="logo">Book Center</span>
+		    <ul class="menu">
+		    	<li class="menu__item"><a href="/ingresar/">Login</a></li>
+		      	<li class="menu__item"><a href="/registrar/">Sign up</a></li>
+		    </ul>
+		</div>
+    </header>
+	<div class="contenedor">
+
+		<h2 class="login__registro">
+			Registro
+		</h2>
+		<section class="login__registro__datos">
+			<form action="POST">
+				<div class="login__registro__datos__ingresar">
+					<input type="text" placeholder="Ingresa un nombre de usuario" name="username">
+				</div>
+				<div class="login__registro__datos__ingresar">
+					<input type="text" placeholder="Ingresa una contraseña" name="password">
+				</div>
+				<button class="login__registro__datos__boton">Registrar</button>
+			</form>
+		</section>
+
+  	</div>
+	<footer class="footer">
+      <div class="contenedor">
+        <hr class="footer__linea">
+        <span class="footer__texto">Proyecto realizado por DevCode en el curso de Fundamentos de Node.js</span>
+      </div>
+    </footer>
+</body>
+</html>
