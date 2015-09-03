@@ -1,0 +1,22 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "Esta es un libreria para el curso de Node.js en Devcode.la",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevCodela/CursoFundamentosNodeJS.git"
+  },
+  "author": "Jean Carlos <mjeanc.104@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevCodela/CursoFundamentosNodeJS/issues"
+  },
+  "homepage": "https://github.com/DevCodela/CursoFundamentosNodeJS#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
