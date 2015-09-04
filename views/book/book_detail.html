@@ -21,7 +21,7 @@
 
 	    <article class="detalle">
 
-	      	<img src="/img/eloquent-js.png" alt="" class="detalle__img">
+	      	<img src="{{ book.image }}" alt="" class="detalle__img">
 
 	      	<section class="detalle__cuerpo">
 
@@ -29,12 +29,12 @@
 
 		          	<div class="detalle__texto">
 
-			            <h1 class="detalle__titulo">Eloquent Javascript</h1>
+			            <h1 class="detalle__titulo">{{ book.title }}</h1>
 			            <div class="detalle_autor">
 			              <img src="/img/profesor.png" alt="" class="detalle__autor_img">
-			              <span class="detaller__autor_nombre">Marijn Haverbeke</span>
+			              <span class="detaller__autor_nombre">{{ book.author }}</span>
 			            </div>
-			            <p class="detalle__descripcion">This is a book about JavaScript, programming, and the wonders of the digital. You can read it online here, or get your own paperback copy of the book.</p>
+			            <p class="detalle__descripcion">{{ book.summary }}</p>
 		          	</div>
 
 		        </div>

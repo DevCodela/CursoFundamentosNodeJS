@@ -26,17 +26,21 @@
 
 			<div class="libros">
 
-				<article class="libro">
+				{% for book in books %}
+					<article class="libro">
 
-					<img src="img/eloquent-js.png" alt="" class="libro__img">
-					<div class="libro__sombra">
+						<img src="{{ book.image }}" alt="" class="libro__img">
+						<div class="libro__sombra">
 
-						<h3 class="libro__titulo">Eloquent Javascript</h3>
-						<span class="libro__autor">Marijn Haverbeke</span>
+							<h3 class="libro__titulo"><a href="/libro/{{ book.slug }}/">{{ book.title }}</a></h3>
+							<span class="libro__autor">{{ book.author }}</span>
 
-					</div>
+						</div>
 
-				</article>
+					</article>
+				{% endfor %}
+
+				
 
 				<article class="libro">
 
